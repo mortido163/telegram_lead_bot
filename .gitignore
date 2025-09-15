@@ -78,6 +78,9 @@ cython_debug/
 # VS Code
 .vscode/
 
+# JetBrains IDEs
+.idea/
+
 # Logs
 *.log
 
