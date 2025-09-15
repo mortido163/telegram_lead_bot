@@ -43,5 +43,6 @@ jobs:
         env:
           BOT_TOKEN: dummy
           CHAT_ID: 0
+          PYTHONPATH: ${{ github.workspace }}
         run: |
           pytest -q
